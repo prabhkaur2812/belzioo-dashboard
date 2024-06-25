@@ -1,0 +1,86 @@
+.sidebar {
+    width: 280px;
+    height: 100%;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.grad {
+    background-color: red;
+    background-image: linear-gradient(to left, rgb(98, 43, 98), rgb(255, 1, 1));
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+.group:hover {
+    font-weight: 500;
+}
+
+.topdiv {
+    min-height: 390px;
+    max-height: 390px;
+    height: 390px;
+}
+
+input {
+    height: 45px;
+    width: 620px;
+    outline-style: none;
+}
+
+header {
+    height: 100px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    left: 300px;
+}
+
+.btn {
+    background-color: white;
+}
+
+header .dropdown-profile::before {
+    content: "|";
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+header img {
+    height: 45px;
+}
+
+header .text {
+    text-decoration: none;
+}
+
+.banner img {
+    height: 280px;
+}
+.banner > img {
+    width: 480px;
+}
+.top {
+    top: 12px;
+   color: white;
+}
+
+.start {
+    left: 10px;
+}
+
+.height {
+    height: 300px;
+}
+.dot{
+    height: 4px;
+    width: 4px;
+}
+.shoes-card:hover{
+   border-color: black !important;
+}

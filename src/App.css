@@ -1,0 +1,246 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sidebar {
+  width: 270px;
+  height: 100%;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.cookie-regular {
+  font-family: "Cookie", cursive;
+  font-weight: 600;
+  font-style: normal;
+ font-size: 40px;
+ text-decoration: none;
+ color: rgb(209, 34, 34);
+}
+
+.main {
+  width: calc(100% - 270px);
+}
+
+.grad {
+  background-color: red;
+  background-image: linear-gradient(to left, rgb(98, 43, 98), rgb(255, 1, 1));
+}
+
+.nav-item a {
+  text-decoration: none;
+}
+
+.group:hover {
+  font-weight: 500;
+}
+
+.topdiv {
+  min-height: 400px;
+  max-height: 400px;
+  height: 400px;
+}
+
+input {
+  height: 45px;
+  width: 400px;
+  outline-style: none;
+}
+
+header {
+  height: 100px;
+  background-color: #fff;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 280px;
+}
+
+.btn {
+  background-color: white;
+}
+
+header .profile::before {
+  content: "|";
+  font-weight: 500;
+  margin-right: 20px;
+}
+header img {
+  height: 45px;
+}
+header .text {
+  text-decoration: none;
+}
+.top {
+  top: 20px;
+  color: white;
+}
+.start {
+  left: 20px;
+}
+.height {
+  height: 350px;
+}
+
+.dot {
+  height: 4px;
+  width: 4px;
+}
+
+.card:hover {
+  border-color: black !important;
+}
+.card{
+  width: 22%;
+}
+
+.width {
+  width: 550px;
+}
+
+nav {
+  height: 90px;
+}
+
+.pink {
+  background-color: rgba(240, 116, 192, 0.967);
+}
+
+.orange {
+  background-color: rgb(255, 165, 0);
+}
+
+.blue:hover {
+  color: rgb(150, 150, 208) !important;
+}
+
+.progressBar {
+  width: 70%;
+  height: 8px;
+  background-color: #3fd499;
+
+}
+
+.progressBar .circle {
+  left: -2;
+  top: -15px;
+  width: 45px;
+  height: 45px;
+  background-color: #2ca56b;
+}
+
+.progressBar .circle:nth-child(2) {
+  left: 33%;
+}
+
+.progressBar .circle:nth-child(3) {
+  left: 66%;
+}
+
+.progressBar .circle:last-child {
+  left: 99%;
+}
+
+.progressBar .circle:last-child {
+  background-color: rgb(233, 225, 225);
+}
+
+.top-10 {
+  top: 10px;
+}
+
+.top-20 {
+  top: 20px;
+}
+
+.bg {
+  background-color: #fff;
+}
+
+.searchbar {
+  width: 300px;
+}
+
+.purple {
+  background-color: rgb(151, 115, 184);
+}
+
+.bordertransparent {
+  border: transparent;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.h-custom {
+  height: calc(100% - 73px);
+}
+
+.style {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.pink{
+  background-color: rgba(212, 108, 143, 0.714);
+}
+ .width{
+  width: 10px;
+ }
+ .input-width{
+  width: 250px;
+ }
+ .cart{
+  height: 60px;
+  width: 60px;
+ }
+.shoes{
+  height: 600px;
+  width: 500px;
+}
+.zIndex{
+  position: relative;
+  z-index: 999;
+}
